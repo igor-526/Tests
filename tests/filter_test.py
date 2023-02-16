@@ -9,4 +9,3 @@ import datafile
 def test_filter(data, expected):
     res = filter_(data)
     assert res == expected
-    
